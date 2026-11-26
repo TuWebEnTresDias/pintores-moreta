@@ -1,6 +1,6 @@
 # Pintores Moreta
 
-Pintores Moreta realiza trabajos de pintura y revestimiento plástico texturado en Córdoba capital. El sitio muestra fotos compartidas por el equipo y ofrece contacto por WhatsApp.
+Pintores Moreta realiza trabajos de pintura, revestimiento plástico texturado y trabajos en altura en Córdoba capital. El sitio muestra fotos compartidas por el equipo y ofrece contacto por WhatsApp.
 
 ## Servicios
 
@@ -11,6 +11,10 @@ Trabajos de pintura para paredes y fachadas. Consultar por WhatsApp según el es
 ### Revestimiento plástico texturado
 
 Una terminación con textura para renovar superficies. Se puede compartir una foto y contar qué resultado se busca.
+
+### Trabajos en altura
+
+Consultá por trabajos en altura y contá qué superficie necesitás intervenir para conversar los detalles por WhatsApp.
 
 ## Zona
 
