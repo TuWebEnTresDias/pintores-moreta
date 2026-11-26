@@ -1,6 +1,6 @@
 # Pintores Moreta
 
-> Sitio de Pintores Moreta, con información sobre trabajos de pintura y revestimiento plástico texturado en Córdoba capital.
+> Sitio de Pintores Moreta, con información sobre trabajos de pintura, revestimiento plástico texturado y trabajos en altura en Córdoba capital.
 
 ## Página
 
@@ -10,6 +10,7 @@
 
 - Trabajos de pintura.
 - Revestimiento plástico texturado.
+- Trabajos en altura.
 
 ## Contacto
 
