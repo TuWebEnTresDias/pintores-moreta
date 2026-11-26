@@ -90,10 +90,8 @@ h3 { margin: 0; line-height: 1.12; }
 .showcase-heading h2 { max-width: 740px; }
 .section-note { max-width: 32rem; margin: 0; color: var(--muted); }
 .image-grid { display: grid; grid-template-columns: 1fr; gap: .75rem; }
-.image-card { min-height: 280px; position: relative; overflow: hidden; margin: 0; background: #d7dfe2; }
-.image-card-large { min-height: 360px; }
-.image-card-wide { min-height: 280px; }
-.image-card img { display: block; width: 100%; height: 100%; min-height: inherit; object-fit: cover; transition: transform .35s ease; }
+.image-card { height: clamp(190px, 62vw, 240px); min-height: 0; position: relative; overflow: hidden; margin: 0; background: #d7dfe2; }
+.image-card img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
 .image-card:hover img { transform: scale(1.025); }
 .image-card figcaption { position: absolute; inset: auto 0 0; padding: 3.5rem 1rem 1rem; background: linear-gradient(transparent, rgba(12,18,22,.85)); color: var(--white); }
 .image-card figcaption strong, .image-card figcaption span { display: block; }
@@ -153,8 +151,7 @@ details p { max-width: 620px; margin: .7rem 2rem 0 0; color: var(--muted); }
   .service-card h3 { font-size: clamp(1.65rem, 3.6vw, 2.4rem); }
   .showcase-heading { flex-direction: row; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
   .image-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
-  .image-card-large { grid-column: 1 / -1; min-height: 440px; }
-  .image-card-wide { min-height: 300px; }
+  .image-card, .image-card-large, .image-card-wide { height: 220px; grid-column: auto; grid-row: auto; }
   .process-list li { grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: 1.5rem 0; }
   .process-list h3 { font-size: clamp(1.3rem, 2.5vw, 1.65rem); }
   .contact { padding-block: 4.5rem; }
@@ -196,9 +193,8 @@ details p { max-width: 620px; margin: .7rem 2rem 0 0; color: var(--muted); }
   .service-card h3 { font-size: clamp(1.8rem, 3.2vw, 3rem); }
   .service-card p { margin-top: .9rem; }
   .service-card a { margin-top: 1.5rem; }
-  .image-grid { grid-template-columns: 1.18fr 1fr 1fr; grid-template-rows: minmax(250px, 1fr) minmax(250px, 1fr); }
-  .image-card-large { grid-column: 1; grid-row: 1 / span 2; min-height: 580px; }
-  .image-card-wide { grid-column: 2 / span 2; min-height: 280px; }
+  .image-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .image-card, .image-card-large, .image-card-wide { height: 210px; grid-column: auto; grid-row: auto; }
   .image-card figcaption { padding: 3.5rem 1.25rem 1.15rem; }
   .image-card figcaption strong { font-size: 1.05rem; }
   .image-card figcaption span { font-size: .85rem; }
