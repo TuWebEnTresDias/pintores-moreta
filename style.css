@@ -90,7 +90,7 @@ h3 { margin: 0; line-height: 1.12; }
 .showcase-heading h2 { max-width: 740px; }
 .section-note { max-width: 32rem; margin: 0; color: var(--muted); }
 .image-grid { display: grid; grid-template-columns: 1fr; gap: .75rem; }
-.image-card { height: clamp(190px, 62vw, 240px); min-height: 0; position: relative; overflow: hidden; margin: 0; background: #d7dfe2; }
+.image-card { height: clamp(220px, 68vw, 280px); min-height: 0; position: relative; overflow: hidden; margin: 0; background: #d7dfe2; }
 .image-card img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
 .image-card:hover img { transform: scale(1.025); }
 .image-card figcaption { position: absolute; inset: auto 0 0; padding: 3.5rem 1rem 1rem; background: linear-gradient(transparent, rgba(12,18,22,.85)); color: var(--white); }
@@ -151,7 +151,7 @@ details p { max-width: 620px; margin: .7rem 2rem 0 0; color: var(--muted); }
   .service-card h3 { font-size: clamp(1.65rem, 3.6vw, 2.4rem); }
   .showcase-heading { flex-direction: row; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
   .image-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
-  .image-card, .image-card-large, .image-card-wide { height: 220px; grid-column: auto; grid-row: auto; }
+  .image-card, .image-card-large, .image-card-wide { height: 250px; grid-column: auto; grid-row: auto; }
   .process-list li { grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: 1.5rem 0; }
   .process-list h3 { font-size: clamp(1.3rem, 2.5vw, 1.65rem); }
   .contact { padding-block: 4.5rem; }
@@ -194,7 +194,7 @@ details p { max-width: 620px; margin: .7rem 2rem 0 0; color: var(--muted); }
   .service-card p { margin-top: .9rem; }
   .service-card a { margin-top: 1.5rem; }
   .image-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .image-card, .image-card-large, .image-card-wide { height: 210px; grid-column: auto; grid-row: auto; }
+  .image-card, .image-card-large, .image-card-wide { height: 240px; grid-column: auto; grid-row: auto; }
   .image-card figcaption { padding: 3.5rem 1.25rem 1.15rem; }
   .image-card figcaption strong { font-size: 1.05rem; }
   .image-card figcaption span { font-size: .85rem; }
